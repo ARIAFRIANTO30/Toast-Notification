@@ -1,0 +1,37 @@
+@import url("https//fonts.googles.com/css2?family=Poppins:wget@200;400;600display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.toast {
+    background-color: #ffa900;
+    border-radius: 5px;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#btn {
+    background-color: #ffa900;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: inherit;
+    padding: 1rem;
+}
